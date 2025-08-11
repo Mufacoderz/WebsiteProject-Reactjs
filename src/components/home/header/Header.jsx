@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../../../assets/logo.png'
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import WorkIcon from '@mui/icons-material/Work';
+import GridViewIcon from '@mui/icons-material/GridView';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const Header = () =>{
+    const [sidebar, setSidebar] = useState(false)
     return(
         <>
             <header className='header'>
@@ -9,6 +19,22 @@ const Header = () =>{
                     <div className="logo">
                         <img src={Logo} alt="logo" />
                     </div>
+                    <div className="nav">
+                        <ul className={sidebar ? "nav-links-sidebar" : "nav-links"} onClick={()=> setSidebar(false)} >
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/pages">Pages</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/portofolio">Portofolio</Link></li>
+                            <li><Link to="/shop">Shop</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li className='icon'>
+                                <SearchOutlinedIcon className="HeaderIcon"/>
+                                <WorkIcon className="HeaderIcon"/>
+                                <GridViewIcon className="HeaderIcon"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <button className='navbar-items-icon'></button>
                 </div>
             </header>
         </>
