@@ -14,6 +14,10 @@ import {
 
 const Header = () =>{
     const [sidebar, setSidebar] = useState(false)
+    window.addEventListener("scroll", function(){
+        const header = this.document.querySelector(".header")
+        header.classList.toggle("active", window.screenY>200)
+    })
     return(
         <>
             <header className='header'>

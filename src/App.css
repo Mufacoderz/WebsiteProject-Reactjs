@@ -21,6 +21,7 @@ ul{
 }
 a{
   text-decoration: none;
+  color: black;
 }
 
 /* -------------------HEADER--------------------- */
@@ -43,6 +44,26 @@ header ul li a:hover{
   color: #38d16a;
   font-weight: 500;
 }
+.HeaderIcon{
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.navbar-items-icon{
+  color: #000;
+  display: none;
+}
+
+header.active{
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 28px 0 rgba(0 0 0 / 6%);
+  width: 100%;
+  z-index: 10;
+}
+
 /* -------------------HEADER--------------------- */
 
 
