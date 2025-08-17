@@ -1,10 +1,13 @@
 import React from 'react'
+import Home from '../home/homes/Home.jsx' 
+  
 
 const Homepage = () => {
   return (
     <>
-      <h1>Homepages</h1>
+        <Home />
     </>
+  
   )
 }
 

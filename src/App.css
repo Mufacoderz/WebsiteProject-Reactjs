@@ -109,6 +109,29 @@ header.active{
 
 /* -------------------HEADER--------------------- */
 
+/* -----------------------Home------------------- */
+
+.left, .right{
+  width: 50%;
+  position: relative;
+}
+.flex{
+  display: flex;
+}
+
+.topMargin{
+  margin-top: 80px;
+}
+.home{
+  height: 90vh;
+}
+.home .img{
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+/* -----------------------Home------------------- */
 
 
 /* .App {
