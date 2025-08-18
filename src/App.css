@@ -131,6 +131,104 @@ header.active{
   position: relative;
 }
 
+.home img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+.home h1{
+  font-size: 60px;
+}
+
+.socialIcon i{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.socialIcon i:hover{
+  color: white;
+}
+.facebook{
+  color: rgb(7, 84, 251);
+  border: 1px solid rgb(7, 84, 251);
+}
+.facebook:hover{
+  background-color: rgb(7, 84, 251);
+}
+.instagram{
+  color: rgb(202, 7, 251);
+  border: 1px solid rgb(202, 7, 251);
+}
+.instagram:hover{
+  background-color: rgb(202, 7, 251);
+}
+.instagram{
+  color: rgb(202, 7, 251);
+  border: 1px solid rgb(202, 7, 251);
+}
+.instagram:hover{
+  background-color: rgb(202, 7, 251);
+}
+.twitter{
+  color: rgb(7, 198, 251);
+  border: 1px solid rgb(7, 198, 251);
+}
+.twitter:hover{
+  background-color: rgb(7, 198, 251);
+}
+.youtube{
+  color: rgb(251, 7, 7);
+  border: 1px solid rgb(251, 7, 7);
+}
+.youtube:hover{
+  background-color: rgb(251, 7, 7);
+}
+.dribbble{
+  color: #ee72a2;
+  border: 1px solid #ee72a2;
+}
+.dribbble:hover{
+  background-color: #ee72a2;
+}
+button{
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.primary-btn{
+  padding: 15px 40px;
+  background-color: #38d16a;
+}
+.primary-btn:hover{
+  background-color: #f54ea2;
+  box-shadow: 0 13px 27px 0 rgb(245 78 162 / 25%);
+}
+.home .right{
+  margin-top: 15%;
+}
+.home .socialIcon{
+  margin: 30px 0;
+}
+.home p{
+  margin-bottom: 20px;
+  color: #6185a5;
+  line-height: 30px;
+}
 /* -----------------------Home------------------- */
 
 
