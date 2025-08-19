@@ -3,6 +3,8 @@ import Home from '../home/homes/Home.jsx'
 import Branding from '../home/Branding.jsx'
 import About from '../home/about/About.jsx'
 import Services from '../home/services/Services.jsx'
+import Wrapper from '../home/Wrapper.jsx'
+import Skill from '../home/Skill.jsx'
 
 const Homepage = () => {
   return (
@@ -11,6 +13,8 @@ const Homepage = () => {
         <Branding />
         <About />
         <Services />
+        <Wrapper />
+        <Skill />
     </>
   
   )
