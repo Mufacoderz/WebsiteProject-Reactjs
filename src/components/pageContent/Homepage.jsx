@@ -2,6 +2,7 @@ import React from 'react'
 import Home from '../home/homes/Home.jsx' 
 import Branding from '../home/Branding.jsx'
 import About from '../home/about/About.jsx'
+import Services from '../home/services/Services.jsx'
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
         <Home />
         <Branding />
         <About />
+        <Services />
     </>
   
   )
