@@ -22,7 +22,7 @@ const Services = () => {
                   </div>
                   <div className="text">
                     <h2>{val.title}</h2>
-                    <h2>{val.desc}</h2>
+                    <p>{val.desc}</p>
                   </div>
                 </div>
               )
