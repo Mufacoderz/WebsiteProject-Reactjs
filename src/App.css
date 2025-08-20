@@ -413,6 +413,26 @@ h3{
 }
 
 /* -----------------------Skill------------------- */
+/* -----------------------Wrapperone------------------- */
+
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.wrapperOne{
+  background-color: #38d16a;
+}
+.wrapperOne h1{
+  color: #fff;
+}
+.wrapperOne p{
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* -----------------------Wrapperone------------------- */
+
 p{
   color: #6185a5;
 }

@@ -5,6 +5,7 @@ import About from '../home/about/About.jsx'
 import Services from '../home/services/Services.jsx'
 import Wrapper from '../home/Wrapper.jsx'
 import Skill from '../home/Skill.jsx'
+import WrapperOne from '../home/WrapperOne.jsx'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Services />
         <Wrapper />
         <Skill />
+        <WrapperOne />
     </>
   
   )
