@@ -6,6 +6,8 @@ import Services from '../home/services/Services.jsx'
 import Wrapper from '../home/Wrapper.jsx'
 import Skill from '../home/Skill.jsx'
 import WrapperOne from '../home/WrapperOne.jsx'
+import Works from '../home/work/Works.jsx'
+import { Work } from '@mui/icons-material'
 
 const Homepage = () => {
   return (
@@ -17,6 +19,7 @@ const Homepage = () => {
         <Wrapper />
         <Skill />
         <WrapperOne />
+        <Works />
     </>
   
   )
