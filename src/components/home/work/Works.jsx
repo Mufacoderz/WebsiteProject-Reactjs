@@ -1,4 +1,5 @@
 import FullscreenIcon from '@mui/icons-material/Fullscreen'
+import IosShareIcon from '@mui/icons-material/IosShare';
 import React from 'react'
 import Data from './Data.js'
 
@@ -26,6 +27,7 @@ const Works = () => {
                                 </div>
                                 <div className="icon">
                                     <FullscreenIcon className='iconWork'/>
+                                    <IosShareIcon classname='iconWork'/>
                                 </div>
                             </div>
                         </div>
