@@ -7,7 +7,8 @@ import Wrapper from '../home/Wrapper.jsx'
 import Skill from '../home/Skill.jsx'
 import WrapperOne from '../home/WrapperOne.jsx'
 import Works from '../home/work/Works.jsx'
-import { Work } from '@mui/icons-material'
+// import { Work } from '@mui/icons-material'
+import Blog from '../home/blog/Blog.jsx'
 
 const Homepage = () => {
   return (
@@ -20,6 +21,7 @@ const Homepage = () => {
         <Skill />
         <WrapperOne />
         <Works />
+        <Blog/>
     </>
   
   )
