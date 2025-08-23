@@ -1,5 +1,7 @@
 import React from 'react'
 import Blogdata from './Blogdata'
+import KeyboardDoubleArrowRight from '@mui/icons-material/KeyboardDoubleArrowRight'
+
 
 const Blog = () => {
   return (
@@ -18,6 +20,13 @@ const Blog = () => {
                   <div className="box">
                     <div className="img">
                       <img src={val.cover} alt="" />
+                    </div>
+                    <div className="text">
+                      <span>{val.date}</span>
+                      <h2>{val.title}</h2>
+                      <a href="/">Read More
+                      <KeyboardDoubleArrowRight className="icon"/>
+                      </a>
                     </div>
                   </div>
                 )
