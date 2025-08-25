@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../../../assets/logo.png'
+import Logo from '../../../assets/logo3.png'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import WorkIcon from '@mui/icons-material/Work';
 import GridViewIcon from '@mui/icons-material/GridView';

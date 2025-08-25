@@ -41,7 +41,7 @@ header ul li a{
   transition: 0.5s;
 }
 header ul li a:hover{
-  color: #38d16a;
+  color: #1572fd;
   font-weight: 500;
 }
 .HeaderIcon{
@@ -105,7 +105,9 @@ header.active{
 
 }
 
-
+header .container .logo img{
+  width: 250px;
+}
 
 /* -------------------HEADER--------------------- */
 
@@ -212,7 +214,7 @@ button{
 }
 .primary-btn{
   padding: 15px 40px;
-  background-color: #38d16a;
+  background-color: #1572fd;
 }
 .primary-btn:hover{
   background-color: #f54ea2;
@@ -246,7 +248,7 @@ button{
 }
 .branding h1{
   font-size: 40px;
-  color: #38d16a;
+  color: #1572fd;
   margin-right: 20px;
 }
 .branding h2{
@@ -271,7 +273,7 @@ h3{
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #38d16a;
+  color: #1572fd;
   margin: 20px 0;
 }
 .heading h1{
@@ -391,7 +393,7 @@ h3{
 } 
 
 .progress-done{
-  background-color: #38d16a;
+  background-color: #1572fd;
   border-radius: 20px;
   color: #fff;
   height: 100%;
@@ -421,7 +423,7 @@ h3{
   grid-gap: 30px;
 }
 .wrapperOne{
-  background-color: #38d16a;
+  background-color: #1572fd;
 }
 .wrapperOne h1{
   color: #fff;
@@ -585,7 +587,7 @@ h3{
   margin: 20px 0;
 }
 .blog a{
-  color: #38d16a;
+  color: #1572fd;
   display: block;
   line-height: 20px;
 }
@@ -596,7 +598,12 @@ h3{
 /* -----------------------blog------------------- */
 /* -----------------------Footer------------------- */
 
+footer .container .box img{
+  width: 180px;
+  margin-left: -20px;
+  margin-top: -20px;
 
+}
 footer{
   background-color: #08071c;
   padding: 100px 0 0 0;
@@ -628,14 +635,14 @@ footer li:before{
   vertical-align: top;
   line-height: 10px;
   margin-right: 20px;
-  color: #38d16a;
+  color: #1572fd;
 }
 footer .box p{
   margin: 0;
   margin-top: 15px;
 }
 footer span{
-  color: #38d16a;
+  color: #1572fd;
   opacity: 1;
 }
 footer .icon{
@@ -643,7 +650,7 @@ footer .icon{
   display: flex;
 }
 footer icon i{
-  color: #38d16a;
+  color: #1572fd;
   margin-right: 20px;
   width: 20px;
   height: 20px;
