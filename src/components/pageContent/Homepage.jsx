@@ -20,7 +20,7 @@ const Homepage = () => {
         <Wrapper />
         <Skill />
         <WrapperOne />
-        <Works />
+        {/* <Works /> */}
         <Blog/>
     </>
   

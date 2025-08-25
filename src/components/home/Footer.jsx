@@ -4,7 +4,7 @@ import logo1 from '../../assets/logo1.png'
 const Footer = () => {
   return (
     <footer>
-        <div className="container grid">
+        <div className="container grid1">
             <div className="box">
                 <img src={logo1} alt="" />
                 <p>Lorem ipsum suspendisse ultrices gravide. Risus commodo viverra maecenas</p>

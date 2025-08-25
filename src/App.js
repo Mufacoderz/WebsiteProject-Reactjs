@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Homepage from './components/pageContent/Homepage';
+import Pages from './components/pages/Pages'
 import Footer from './components/home/Footer'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Header/>
         <Switch>
             <Route path="/" exact component={Homepage}/>
+            <Route path="/pages" exact component={Pages}/>
         </Switch>
         <Footer/>
       </Router>
