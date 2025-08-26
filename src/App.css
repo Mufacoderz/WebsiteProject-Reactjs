@@ -106,12 +106,14 @@ header.active{
 }
 
 header .container .logo img{
-  width: 250px;
+  width: 150px;
 }
 
 /* -------------------HEADER--------------------- */
 
 /* -----------------------Home------------------- */
+
+
 
 .left, .right{
   width: 50%;
@@ -231,6 +233,10 @@ button{
   color: #6185a5;
   line-height: 30px;
 }
+
+
+
+
 /* -----------------------Home------------------- */
 
 /* -----------------------Branding------------------- */
@@ -241,7 +247,7 @@ button{
   grid-gap: 30px;
 }
 .branding{
-  background-color: #08071c;
+  background-color: #0a122e;
   color: #fff;
   margin-top: 35px;
   padding: 80px;
@@ -304,6 +310,10 @@ h3{
   width: 600px;
   height: 86vh;
   z-index: -1;
+}
+
+.about .img img{
+  width: 500px;
 }
 
 
@@ -437,7 +447,7 @@ h3{
 /* -----------------------work------------------- */
 
 .work{
-  background-color: #08071c;
+  background-color: #0a122e;
   padding: 40px 0;
   height: 170vh;
 }
@@ -605,7 +615,7 @@ footer .container .box img{
 
 }
 footer{
-  background-color: #08071c;
+  background-color: #0a122e;
   padding: 100px 0 0 0;
   color: #fff;
 }

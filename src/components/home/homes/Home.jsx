@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeImg from '../../../assets/home.png'
+import HomeImg from '../../../assets/home1.png'
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
               <img src={HomeImg} alt="taik" />
             </div>
           </div>
-          <div className="right topMargin">
-            <h1>I AM A <br />WEB DEVELOPER</h1>
+          <div className="right topMargin homeTopMargin">
+            <h1>I AM A <br />MUHAMMAD FADIL</h1>
             <div className="socialIcon">
               <i className='fab fa-facebook facebook'></i>
               <i className='fab fa-instagram instagram'></i>
