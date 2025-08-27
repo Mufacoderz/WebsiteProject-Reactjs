@@ -1,11 +1,11 @@
 // src/components/home/services/ServicesData.js
 
-import img1 from "../../../assets/services/services-1.jpg"
-import img2 from "../../../assets/services/services-2.jpg"
-import img3 from "../../../assets/services/services-3.jpg"
-import img4 from "../../../assets/services/services-4.jpg"
-import img5 from "../../../assets/services/services-5.jpg"
-import img6 from "../../../assets/services/services-6.jpg"
+import img1 from "../../../assets/services/services1.jpg"
+import img2 from "../../../assets/services/services2.jpg"
+import img3 from "../../../assets/services/services3.jpg"
+import img4 from "../../../assets/services/services4.jpg"
+import img5 from "../../../assets/services/services5.jpg"
+import img6 from "../../../assets/services/services6.jpg"
 
 const ServicesData = [
   {
@@ -22,25 +22,25 @@ const ServicesData = [
   },
   {
     id: 3,
-    title: "Photography",
+    title: "Web3 development",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
     cover: img3,
   },
   {
     id: 4,
-    title: "Live Support",
+    title: "Cyber Security",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
     cover: img4,
   },
   {
     id: 5,
-    title: "Content Writing",
+    title: "AI / Machine Learning",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
     cover: img5,
   },
   {
     id: 6,
-    title: "Timely Deliverables",
+    title: "Penghitam Waifu",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
     cover: img6,
   },

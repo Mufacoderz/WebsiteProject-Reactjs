@@ -12,7 +12,7 @@ const Home = () => {
             </div>
           </div>
           <div className="right topMargin homeTopMargin">
-            <h1>I AM A <br />MUHAMMAD FADIL</h1>
+            <h1>I AM <br />MUHAMMAD FADIL</h1>
             <div className="socialIcon">
               <i className='fab fa-facebook facebook'></i>
               <i className='fab fa-instagram instagram'></i>
