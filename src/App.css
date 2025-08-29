@@ -349,7 +349,7 @@ h3 {
 
 .about {
   display: flex;
-  flex-wrap: wrap; /* biar gampang responsif */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -366,7 +366,7 @@ h3 {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 500px; /* batasi agar tidak kelebaran */
+  max-width: 500px;
 }
 
 .about .img::after {
@@ -382,8 +382,8 @@ h3 {
 }
 
 .about .img img {
-  width: 100%;       /* isi parent */
-  max-width: 100%;   /* jangan lebih besar dari parent */
+  width: 100%;       
+  max-width: 100%;   
   height: auto;
   display: block;
 }
@@ -409,7 +409,7 @@ h3 {
   }
 }
 
-/* Mobile */
+
 @media screen and (max-width: 768px) {
   .heading h1 {
     font-size: 22px;
@@ -423,7 +423,7 @@ h3 {
   }
 
   .about {
-    flex-direction: column;  /* stack atas-bawah */
+    flex-direction: column; 
     text-align: center;
   }
 
@@ -436,11 +436,11 @@ h3 {
   .about .img {
     flex: 1 1 100%;
     width: 90%;
-    max-width: 350px; /* aman biar gak keluar layar */
+    max-width: 350px; 
   }
 
   .about .img::after {
-    display: none; /* sembunyikan dekorasi di hp */
+    display: none; 
   }
 }
 
@@ -569,6 +569,26 @@ h3 {
 .wrapperOne p{
   font-size: 14px;
   margin: 10px 0;
+}
+@media (max-width: 992px) {
+  .grid1{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid1{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .wrapperOne h1{
+    font-size: 1.5rem;
+  }
+
+  .wrapperOne p{
+    font-size: 13px;
+  }
 }
 
 /* -----------------------Wrapperone------------------- */
