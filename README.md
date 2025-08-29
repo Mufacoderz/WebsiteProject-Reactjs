@@ -1,3 +1,5 @@
+# Preview
+![Preview](src/assets/preview.png)
 
 
 # Getting Started with Create React App
