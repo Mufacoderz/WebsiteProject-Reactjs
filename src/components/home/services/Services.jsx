@@ -16,7 +16,7 @@ const Services = () => {
           <div className="containe grid topMargin">
             {ServicesData.map((val)=>{
               return(
-                <div className='box'>
+                <div data-aos="fade-up" className='box'>
                   <div className="img">
                     <img src={val.cover} alt="" />
                   </div>
